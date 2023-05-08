@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form id="main-form" onsubmit="return checkForm(this)" method="post">
+    <p><label for="number1">Доданок1:</label>
+    <input type="number" number1="number" placeholder="" id="number1"></p>
+    <label for="number2">Доданок2:</label>
+    <input type="number" number2="number" placeholder="" id="number2"><br><br><br>
+    <input type="submit" value="Додати"><br><br>
+    <p> Сума: <span id="sum"></span></p>
+    
+    <script src="JS/summ.js"></script>
+ </form>   
+</body>
+</html>

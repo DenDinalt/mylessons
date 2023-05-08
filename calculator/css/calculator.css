@@ -1,0 +1,23 @@
+button {
+    font-size: 50px;
+    width: 60pt;
+}
+
+.bigbutton {
+    height: 101pt;
+}
+
+.bigbutton2 {
+    height: 152pt;
+}
+input {
+    font-size: 40px;
+    height: 60pt;
+    width: 240pt;
+}
+
+/* <button onclick="clickButton(this)">=</button> {
+    font-size: 50px;
+    height: 120px;
+    width: 60pt;
+} */

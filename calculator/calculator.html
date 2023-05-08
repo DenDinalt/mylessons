@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <script>src="js/calculator.js"</script>
+    <link rel="stylesheet" type="text/css" href="css/calculator.css"/>
+</head>
+<body>
+    <table>
+    <tr>
+        <td colspan="4"> <input id="display" readonly></td>
+    </tr>
+    <tr>
+        <td><button onclick="clickButton(this)">/</button></td>
+        <td><button onclick="clickButton(this)">*</button></td>
+        <td><button onclick="clickButton(this)">-</button></td>
+        <td rowspan="3"><button class="bigbutton2" onclick="clickButton(this)">+</button></td>
+    </tr>
+        <tr>
+        <td><button onclick="clickButton(this)">7</button></td>
+        <td><button onclick="clickButton(this)">8</button></td>
+        <td><button onclick="clickButton(this)">9</button></td>
+    </tr>
+        <tr>
+        <td><button onclick="clickButton(this)">4</button></td>
+        <td><button onclick="clickButton(this)">5</button></td>
+        <td><button onclick="clickButton(this)">6</button></td>
+    </tr>
+        <tr>
+        <td><button onclick="clickButton(this)">1</button></td>
+        <td><button onclick="clickButton(this)">2</button></td>
+        <td><button onclick="clickButton(this)">3</button></td>
+        <td rowspan="2"><button class="bigbutton" onclick="clickButton(this)">=</button></td>
+        
+    </tr>
+
+        <tr>
+        <td><button onclick="clickButton(this)">←</button></td>
+        <td><button onclick="clickButton(this)">0</button></td>
+        <td><button onclick="clickButton(this)">C</button></td>
+    </tr>
+    </table>
+</body>
+</html>
