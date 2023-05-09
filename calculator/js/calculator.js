@@ -1,4 +1,6 @@
-let "cash"
-let "act"
+let cash
+let act
+
+let display = 
 
 
