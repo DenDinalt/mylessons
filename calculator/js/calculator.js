@@ -1,6 +1,7 @@
 let cash
 let act
+let display = getElementByid.display
 
-let display = 
+document.qwerySelector('button').innerHtml += display
 
 
