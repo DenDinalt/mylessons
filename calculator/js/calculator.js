@@ -4,13 +4,12 @@ let act
 
 function clickButton(butn) {
 
-   let butnText = butn.textContent;
-  
-displayText.value = butnText;
-displayText = document.getElementById('display'); 
+   let butnText = butn.textContent
+   displayText = document.getElementById('display')
 
+displayText.value = butnText
 
-console.log (butnText);
+console.log(butnText);
 
 }
 
