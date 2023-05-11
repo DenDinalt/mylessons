@@ -2,9 +2,15 @@ let cash
 let act
 
 
-funktion clickbutton {
+function clickButton(butn) {
 
-let btnText = document.getElementById('button').innerHtml = display
+   let butnText = butn.textContent;
+  
+displayText.value = butnText;
+displayText = document.getElementById('display'); 
+
+
+console.log (butnText);
 
 }
 
