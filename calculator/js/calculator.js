@@ -1,7 +1,11 @@
 let cash
 let act
-let display = getElementByid.display
 
-document.qwerySelector('button').innerHtml += display
+
+funktion clickbutton {
+
+let btnText = document.getElementById('button')
+
+}
 
 
