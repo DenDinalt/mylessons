@@ -13,4 +13,4 @@ console.log(butnText);
 
 }
 
-
+// перевірка
