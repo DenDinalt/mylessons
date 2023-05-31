@@ -4,10 +4,15 @@ let act
 
 function clickButton(butn) {
 
-   let butnText = butn.textContent
-   displayText = document.getElementById('display')
+   let butnText = butn.textContent;
+   displayText = document.getElementById('display');
+   let num = Number(displayText);
 
-displayText.value = butnText
+  if (isNaN(num)){
+
+  }
+
+displayText.value = butnText;
 
 console.log(butnText);
 
